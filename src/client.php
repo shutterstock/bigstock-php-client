@@ -99,6 +99,12 @@ class Bigstock {
         return $this->getCollection('clipbox', $id, $params);
     }
 
+    public function getCategories($lang="en") {
+        $url = $this->url . 'categories/?language=' . $lang;
+        $r = $this->rest->get($url);
+        return $this->processResponse($r);
+    }
+
     public function getPurchase($id, $size_code, $type='image') {
         $params = array(
             $type.'_id'=>$id,
