@@ -1,0 +1,21 @@
+{
+    "name": "bigstock/bigstock",
+    "type": "library",
+    "description": "PHP Bigstock API Client",
+    "keywords": ["PHP","API","client","library","module","api","Bigstock", "Shutterstock","stock photo"],
+    "authors": [
+        {
+            "name": "Brent Baisley",
+            "email": "bbaisley@shutterstock.com",
+            "homepage": "http://help.bigstockphoto.com/hc/en-us/articles/200303245-API-Documentation",
+            "role":"Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "shutterstock/presto": "2.0.*"
+    },
+    "autoload": {
+        "classmap": ["src/"]
+    }
+}
