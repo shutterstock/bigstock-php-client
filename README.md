@@ -66,3 +66,6 @@ if ($result->message == 'success') {
 }
 ```
 
+## License
+
+[MIT](LICENSE) © 2014-2017 Brent Baisley
