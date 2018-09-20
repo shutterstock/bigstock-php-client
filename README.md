@@ -1,7 +1,11 @@
+# DEPRECATED
+
+This repo is no longer publicly supported.
+
 bigstock-php-client
 ===================
 
-PHP Client for the Bigstock API. Full documentation is available at [http://help.bigstockphoto.com/hc/en-us/articles/200303245-API-Documentation](http://help.bigstockphoto.com/hc/en-us/articles/200303245-API-Documentation). 
+PHP Client for the Bigstock API. Full documentation is available at [http://help.bigstockphoto.com/hc/en-us/articles/200303245-API-Documentation](http://help.bigstockphoto.com/hc/en-us/articles/200303245-API-Documentation).
 Self-serve signup for API accounts are available in the [Partners section](https://www.bigstockphoto.com/partners) of Bigstock.
 
 Install
@@ -16,7 +20,7 @@ Install the Bigstock PHP Client with Composer.
 Usage
 -----
 
-Create an instance of the Bigstock API Client by passing in your API ID and API Secret as parameters. 
+Create an instance of the Bigstock API Client by passing in your API ID and API Secret as parameters.
 The client will then handle any authentication when required.
 
 ```php
